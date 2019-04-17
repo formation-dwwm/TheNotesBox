@@ -7,3 +7,6 @@ console.log("Single post:");
 console.log(post);
 console.log("Collection:");
 console.log(collection);
+
+// Test marked
+document.getElementsByTagName("body")[0].innerHTML = post.htmlContent;
