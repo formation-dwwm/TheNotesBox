@@ -1,0 +1,51 @@
+.post-wrap{
+    background-color:lightgray;
+    border-radius: 25px;
+    border: solid white 1px;
+    padding: 1%;
+    overflow-y: auto;
+}
+
+.post{
+background-color: white;
+width: 98%;
+margin: auto;
+border-radius: 15px;
+padding: 1%;
+
+}
+
+hr{
+    width: 80%;
+}
+
+.post img{
+    max-height: 40px;
+    width: auto;
+    margin-right: 2%;
+}
+
+article{
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 2%
+}
+
+section p{
+    display: inline-block;
+    margin: 0;
+}
+
+.badge{
+    height: 20px;
+}
+
+section{
+    padding: 2%;
+}
+
+.btn{
+    float: right;
+    
+}
+
