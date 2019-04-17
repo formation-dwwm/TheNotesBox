@@ -1,0 +1,79 @@
+/* .bd-example {
+    width: 70%;
+    margin: auto;
+} */
+/* .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+
+
+.SiteText
+{
+    text-align: right;
+    float: right;
+    
+}
+
+.carousel .item {
+    height: 360px;
+  }
+  .carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 20px;
+  }
+   
+  .carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-top: 200px;
+  }
+  .carousel-caption h1,
+  .carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  }
+  .carousel-caption .btn {
+    margin-top: 10px;
+  }
+
+img
+{
+    height: 50rem;
+
+}
+.login {
+    text-align: center;
+    padding: 30px 35% 50px 35%;
+}
+.formulaire
+{
+    max-height: 50%;
+}
+
+.description
+{
+    float:left;
+    text-align: left;
+    font-size: 30px;
+    padding: 15px;
+}
+#footer
+{
+    background-color: grey;
+    height: 75px;
+    margin-top: 200px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
