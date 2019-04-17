@@ -41,3 +41,5 @@ class User {
         return collection;
     }
 }
+
+export {User};

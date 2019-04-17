@@ -1,4 +1,6 @@
-    class Post {
+import {User} from "./User.js";
+
+class Post {
     constructor() {
         this.id = Post.GenerateUID();
         this.title; // String
@@ -49,11 +51,7 @@
 
         post.title = "title";
         post.content = loremIpsum;
-        // TODO: make use of our User class
-        post.author = {
-            avatar: "https://st.depositphotos.com/1640243/4300/v/950/depositphotos_43001159-stock-illustration-anonymous-spy-icon.jpg",
-            firstName: "User #2465",
-        };
+        post.author = User.Get();
         post.createdAt = new Date();
         post.updatedAt = new Date();
         post.tags = ["html","css"];
@@ -75,3 +73,5 @@
         return collection;
     }    
 }
+
+export {Post};
