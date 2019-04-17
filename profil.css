@@ -1,3 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 900px;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+.profil{
+    margin: 100px 100px 100px 100px;
+}
+
+/* barre de navigation*/
+.appcontainer{
+    display: flex;
+    height: 900px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.leftpost{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    padding: 50px;
+}
+
+.container-leftpost{
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.rightmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(230, 230, 230);
+}
+
+a{
+    color: white !important;
+}
+
+.navbar{
+ background-color: rgb(75, 198, 237)!important;
+}
+
+.users, .category{
+    margin: 20px;
+    border-radius: 20px;
+    width: 90%;
+    height: 50%;
+    background-color: white;
+}
+
+.category{
+    margin-top: 0;
+}
 .border{
     margin: 10px;
     border-radius: 20px;
@@ -5,3 +73,25 @@
     background-color: gray;
 }
 
+/*inscription*/
+
+.formulaire{
+    background-color:skyblue;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    /*margin: 300px;*/
+    box-shadow: 20px 1px 30px black;
+    max-width: 350px;
+    margin: 20px auto;
+    
+}
+
+.form-text{
+    text-align: left;
+}
+.btn {
+    margin: auto;
+}
