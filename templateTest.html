@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Notes Box</title>
+    </head>
+    <body>
+
+        <template id="my-template">
+            <h1>{{ title }}</h1>
+            <p>{{ content }}</p>
+        </template>
+    </body>
+    <script src="js/Templating.js"></script>
+    <script>
+        let $el = fromTemplate('my-template', { title: "Test title", content: "Fake content" }, {});
+        document.body.appendChild($el);
+    </script>
+</html>
