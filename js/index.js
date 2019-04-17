@@ -1,4 +1,8 @@
+import {Context} from './Context.js'
 import {Post} from './Post.js'
+
+// Test context
+console.log(Context.IsLogged() ? "User is logged" : "User is not logged");
 
 let post = Post.Get();
 let collection = Post.GetCollection();

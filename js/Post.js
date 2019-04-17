@@ -74,7 +74,7 @@ e colonis dicar cum: superasse primus, parabam est suae mutabile pudore!`.trim()
         }
 
         return collection;
-    }    
+    }
 }
 
 export {Post};
